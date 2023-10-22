@@ -26,5 +26,6 @@ jobs:
 
     - name: Run a multi-line script
       run: |
-        echo Add another ctions to build
-        echo test and deploy project 
+        echo Add another ctions to build,
+        echo test and deploy project.
+ 
