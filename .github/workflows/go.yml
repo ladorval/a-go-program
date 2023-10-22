@@ -21,8 +21,10 @@ jobs:
       with:
         go-version: '1.20'
 
-    - name: Build
-      run: go build -v ./...
+    - name: Run a one-line script
+      run: echo Hello, World!
 
-    - name: Test
-      run: go test -v ./...
+    - name: Run a multi-line script
+      run: |
+        echo Add another ctions to build
+        echo test and deploy project 
